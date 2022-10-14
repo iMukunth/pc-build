@@ -1,0 +1,174 @@
+/*Header*/
+header{
+    width: 100%;
+    display: flex;
+    padding: 1em;
+    align-content: center;
+    justify-content: center;
+}
+header>h1{
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+
+/*cover*/
+.cover1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.cover{
+    width: 30rem;
+}
+.row{
+    grid-gap: 1rem;
+    
+}
+
+/*Container*/
+.col{
+    border: solid 2px black;
+}
+.header2{
+    font-size: 2em;;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*box*/
+.box{
+    width: 90%;
+    margin: 1.5rem auto;
+    
+}
+
+.box>img{
+    width:  1.5em;
+    
+}
+/*item*/
+.item p{
+    display: inline-block;
+    font-size: 1.3em;
+    font-size: bold;
+    margin: 0;
+    margin-left: 0.9em;
+}
+.icon{
+    align-self: flex-start;
+    height: auto;
+    
+}
+.box-chat{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+}
+.btn-c{
+    background-color: #212529;
+    color: white;
+    border: solid 1px black;
+    width: 30%;
+    padding: 0.8em;
+    font-weight: bold;
+    font-size: 1em;
+    border-radius: 3px;
+    opacity: 90%;
+}
+.btn-c:hover{
+    background-color: black;
+    color: white;
+    opacity: 60%;
+}
+/*Message form*/
+label{
+    display: block;
+    width: 80%;
+    margin: 1em auto 0 auto;   
+    font-size: 1em;
+    font-weight: bold;
+}
+fieldset input,textarea{
+    display: block;
+    width: 100%;
+    margin: 0.3em auto 0 auto;
+    border: solid 1.8px black;
+    min-height: 2em;
+    padding: 5px 10px;
+}
+textarea{
+    resize: none;
+}
+input[type="button"]{
+    display: block;
+    width:50%;
+    min-height:2em;
+    margin: 1em auto;
+    padding: 0.4em 0;
+    font-size: 1em;
+    font-weight: 90%;
+    font-weight: 550;
+    border: solid 2px black;
+}
+/*other important styles*/
+.vh-40{
+    height: 55vh;
+}
+
+.nav:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+.full{
+    height: 550px;
+}
+
+@media only screen and (max-width: 800px){
+    .pd{
+        padding-right: 3rem !important;
+        padding-left: 3rem !important;
+    }
+    .icon{
+        width: 42px;
+    }
+    .item p{
+        font-size: 1.3rem;
+    }
+}
+
+
+@media only screen and (max-width: 1350px) and (min-width: 1120px){
+    .icon{
+        width: 2.6em;
+    }
+    .box{
+     width: 90%;
+    }
+    .item p{
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (max-width: 1100px ) and  (min-width: 790px) {
+    .icon{
+        width:2.4em;
+    }
+    .item p{
+        font-size:1.1em;
+        margin-left: 0.6em
+    }
+}
+
+.h2{
+    margin: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
